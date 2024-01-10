@@ -3,12 +3,17 @@ tap "homebrew/bundle"
 tap "withgraphite/tap"
 
 #####################################
+# NOTE: you can check packages to be updated with:
+# $ brew outdated
+
+#####################################
 # main packages
 brew "act" # github actions locally running for development/debugging
 brew "awscli"
 brew "bash"
-#brew "black" # linter
+brew "black" # python formatter
 brew "coreutils"
+brew "deno" # js runtime for installing windmill
 brew "eksctl"
 brew "fish" # my favorite shell
 brew "git"
@@ -37,6 +42,7 @@ brew "starship"
 brew "telnet"
 brew "tree"
 brew "terraform"
+brew "terraform-docs"
 brew "tmux"
 
 # cask (not main)
@@ -45,13 +51,11 @@ cask "alfred"
 cask "amazon-chime"
 cask "cloudflare-warp"
 cask "docker"
-# brew "docker-compose" # NOT needed if you use docker desktop
 cask "iterm2"
 cask "lens" # k8s best UI
 cask "sonos"
 cask "sublime-merge"
 cask "visual-studio-code"
-cask "warp" # AI terminal
 cask "zoom"
 
 #####################################
@@ -62,9 +66,5 @@ cask "zoom"
 # brew "minikube" (use kind instead)
 # brew "tmuxinator"
 # brew "ultralist"
-
-#####################################
-# NOTE: you can check packages to be updated with:
-# $ brew outdated
-
-#####################################
+# brew "docker-compose" # NOT needed if you use docker desktop
+# cask "warp" # AI terminal
