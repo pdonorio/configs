@@ -7,12 +7,13 @@ tap "withgraphite/tap"
 brew "act" # github actions locally running for development/debugging
 brew "awscli"
 brew "bash"
+#brew "black" # linter
 brew "coreutils"
 brew "eksctl"
 brew "fish" # my favorite shell
 brew "git"
 brew "git-lfs"
-brew "go"
+#brew "go"
 brew "goaccess"
 brew "gh" # github cli
 brew "graphite" # git stacks
@@ -26,7 +27,7 @@ brew "kubecm"
 brew "kubectx"
 brew "kubernetes-cli"
 brew "make" # mac base make is obsolete
-brew "node"
+brew "node@20"
 brew "oq" # jq for json and yaml
 brew "openssl@3"
 brew "pre-commit"
