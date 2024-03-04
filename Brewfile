@@ -1,6 +1,7 @@
 # define sources
 tap "homebrew/bundle"
 tap "withgraphite/tap"
+tap "aws/tap"
 
 #####################################
 # NOTE: you can check packages to be updated with:
@@ -14,6 +15,7 @@ brew "bash"
 brew "black" # python formatter
 brew "coreutils"
 brew "deno" # js runtime for installing windmill
+brew "eks-node-viewer"
 brew "eksctl"
 brew "fish" # my favorite shell
 brew "git"
