@@ -26,7 +26,6 @@ brew "gh" # github cli
 brew "graphite" # git stacks
 brew "helm"
 brew "hub"
-brew "just" # a command runner to explore
 brew "jq"
 brew "k9s" # kubernetes interface in terminal
 brew "kind"
@@ -42,15 +41,16 @@ brew "python@3.11" # TODO: deprecate
 brew "python@3.12"
 brew "starship"
 brew "telnet"
+brew "tfenv"
 brew "tree"
 brew "terraform"
 brew "terraform-docs"
 brew "tmux"
+brew "yq"
 
 # cask (not main)
 cask "1password-cli"
 cask "alfred"
-cask "amazon-chime"
 cask "cloudflare-warp"
 cask "docker"
 cask "iterm2"
@@ -64,9 +64,13 @@ cask "zoom"
 # others that may be interesting:
 
 # brew "colima" # docker macos alternative?
-# brew "llm"
+# brew "docker-compose" # NOT needed if you use docker desktop
+
+# brew "just" # a command runner to explore
 # brew "minikube" (use kind instead)
 # brew "tmuxinator"
 # brew "ultralist"
-# brew "docker-compose" # NOT needed if you use docker desktop
+# brew "llm"
+
+# cask "amazon-chime"
 # cask "warp" # AI terminal
