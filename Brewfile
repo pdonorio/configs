@@ -20,9 +20,11 @@ brew "eksctl"
 brew "fish" # my favorite shell
 brew "git"
 brew "git-lfs"
-#brew "go"
+#brew "go" # using docker for this
 brew "goaccess"
 brew "gh" # github cli
+brew "gnupg" 
+brew "gpg2"
 brew "graphite" # git stacks
 brew "helm"
 brew "hub"
@@ -36,14 +38,15 @@ brew "make" # mac base make is obsolete
 brew "node@20"
 brew "oq" # jq for json and yaml
 brew "openssl@3"
+brew "pinentry-mac"
 brew "pre-commit"
 brew "python@3.11" # TODO: deprecate
 brew "python@3.12"
-brew "starship"
+brew "starship"  # fish goodies
 brew "telnet"
 brew "tfenv"
 brew "tree"
-brew "terraform"
+#brew "terraform"  # using tfenv for this
 brew "terraform-docs"
 brew "tmux"
 brew "yq"
