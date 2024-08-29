@@ -15,6 +15,7 @@ brew "bash"
 brew "black" # python formatter
 brew "coreutils"
 brew "deno" # js runtime for installing windmill
+brew "docker-compose"
 brew "eks-node-viewer"
 brew "eksctl"
 brew "fish" # my favorite shell
@@ -42,6 +43,7 @@ brew "pinentry-mac"
 brew "pre-commit"
 brew "python@3.11" # TODO: deprecate
 brew "python@3.12"
+#brew "ruff" # faster black
 brew "starship"  # fish goodies
 brew "telnet"
 brew "tfenv"
@@ -49,6 +51,7 @@ brew "tree"
 #brew "terraform"  # using tfenv for this
 brew "terraform-docs"
 brew "tmux"
+#brew "uv" # better than poetry?
 brew "yq"
 
 # cask (not main)
@@ -67,13 +70,14 @@ cask "zoom"
 # others that may be interesting:
 
 # brew "colima" # docker macos alternative?
-# brew "docker-compose" # NOT needed if you use docker desktop
+# brew "terraform"  # use tfenv instead
 
 # brew "just" # a command runner to explore
 # brew "minikube" (use kind instead)
 # brew "tmuxinator"
 # brew "ultralist"
 # brew "llm"
+# brew "wireshark"
 
 # cask "amazon-chime"
 # cask "warp" # AI terminal
