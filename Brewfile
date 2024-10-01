@@ -80,4 +80,5 @@ cask "zoom"
 # brew "wireshark"
 
 # cask "amazon-chime"
+# cask "snowflake-snowsql"
 # cask "warp" # AI terminal
