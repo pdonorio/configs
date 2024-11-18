@@ -14,7 +14,7 @@ brew "awscli"
 brew "bash"
 brew "black" # python formatter
 brew "coreutils"
-brew "deno" # js runtime for installing windmill
+#brew "deno" # js runtime for installing windmill
 brew "docker-compose"
 brew "eks-node-viewer"
 brew "eksctl"
@@ -41,8 +41,8 @@ brew "oq" # jq for json and yaml
 brew "openssl@3"
 brew "pinentry-mac"
 brew "pre-commit"
-brew "python@3.11" # TODO: deprecate
 brew "python@3.12"
+#brew "python@3.13"
 #brew "ruff" # faster black
 brew "starship"  # fish goodies
 brew "telnet"
@@ -51,7 +51,7 @@ brew "tree"
 #brew "terraform"  # using tfenv for this
 brew "terraform-docs"
 brew "tmux"
-#brew "uv" # better than poetry?
+brew "uv" # python packages, better than poetry
 brew "yq"
 
 # cask (not main)
