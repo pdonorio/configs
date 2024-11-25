@@ -35,6 +35,7 @@ brew "kind"
 brew "kubecm"
 brew "kubectx"
 brew "kubernetes-cli"
+brew "logcli" # loki for grafana
 brew "make" # mac base make is obsolete
 brew "node@20"
 brew "oq" # jq for json and yaml
@@ -42,7 +43,7 @@ brew "openssl@3"
 brew "pinentry-mac"
 brew "pre-commit"
 brew "python@3.12"
-#brew "python@3.13"
+brew "python@3.13"
 #brew "ruff" # faster black
 brew "starship"  # fish goodies
 brew "telnet"
