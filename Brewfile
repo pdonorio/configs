@@ -41,6 +41,7 @@ brew "node@20"
 brew "oq" # jq for json and yaml
 brew "openssl@3"
 brew "pinentry-mac"
+brew "pixi"
 brew "pre-commit"
 brew "python@3.12"
 brew "python@3.13"
@@ -49,9 +50,10 @@ brew "starship"  # fish goodies
 brew "telnet"
 brew "tfenv"
 brew "tree"
-#brew "terraform"  # using tfenv for this
+#brew "terraform"  # using tfenv instead
 brew "terraform-docs"
 brew "tmux"
+brew "tmuxinator"
 brew "uv" # python packages, better than poetry
 brew "yq"
 
@@ -75,7 +77,6 @@ cask "zoom"
 
 # brew "just" # a command runner to explore
 # brew "minikube" (use kind instead)
-# brew "tmuxinator"
 # brew "ultralist"
 # brew "llm"
 # brew "wireshark"
