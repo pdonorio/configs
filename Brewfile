@@ -15,7 +15,7 @@ brew "bash"
 brew "black" # python formatter
 brew "coreutils"
 #brew "deno" # js runtime for installing windmill
-brew "docker-compose"
+#brew "docker-compose"
 brew "eks-node-viewer"
 brew "eksctl"
 brew "fish" # my favorite shell
@@ -61,6 +61,7 @@ brew "yq"
 cask "1password-cli"
 cask "alfred"
 cask "cloudflare-warp"
+#cask "cursor"
 cask "docker"
 cask "iterm2"
 cask "lens" # k8s best UI
@@ -84,3 +85,4 @@ cask "zoom"
 # cask "amazon-chime"
 # cask "snowflake-snowsql"
 # cask "warp" # AI terminal
+
