@@ -56,6 +56,7 @@ brew "yq"
 # cask: extra packages
 cask "1password-cli"
 cask "alfred"
+cask "amazon-chime"
 cask "cloudflare-warp"
 cask "docker"
 cask "iterm2"
@@ -79,7 +80,6 @@ cask "zoom"
 # brew "ultralist"
 # brew "wireshark"
 
-# cask "amazon-chime"
 # cask "cursor"  # updates via UI instead
 # cask "snowflake-snowsql"
 # cask "warp" # AI terminal
