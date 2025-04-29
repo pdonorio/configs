@@ -56,6 +56,7 @@ brew "tmux"
 brew "tmuxinator"
 brew "uv" # python packages, better than poetry
 brew "yq"
+brew "ykman"
 
 #####################################
 # cask: extra packages
@@ -74,8 +75,19 @@ cask "sublime-merge"
 cask "visual-studio-code"
 cask "zoom"
 
+# git fix for sublime:
+# $ git config core.commentChar ';'
+
 #####################################
-# others that may be interesting:
+# yubikey gpg sign
+# gpg --card-edit
+# admin
+# passwd # set pin(s)
+# key-attr
+# generate
+
+#####################################
+# may be interesting
 
 # brew "colima" # docker macos alternative?
 # brew "deno" # js runtime for installing windmill
@@ -90,5 +102,6 @@ cask "zoom"
 # cask "snowflake-snowsql"
 # cask "warp" # AI terminal
 
-# NOT WORKING ANYMORE
+#####################################
+# not working anymore?
 #brew "eks-node-viewer"
