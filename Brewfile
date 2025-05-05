@@ -75,16 +75,23 @@ cask "sublime-merge"
 cask "visual-studio-code"
 cask "zoom"
 
+#####################################
+# fresh setup
+
 # git fix for sublime:
 # $ git config core.commentChar ';'
+# (then restart sublime)
 
-#####################################
+# setup tfenv (install, list, use) 
+# setup pre-commit (install)
+
 # yubikey gpg sign
 # gpg --card-edit
 # admin
 # passwd # set pin(s)
 # key-attr
 # generate
+# (from another laptop export/import gpg priv key)
 
 #####################################
 # may be interesting
