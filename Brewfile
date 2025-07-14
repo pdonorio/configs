@@ -55,6 +55,7 @@ brew "terraform-docs"
 brew "tmux"
 brew "tmuxinator"
 brew "uv" # python packages, better than poetry
+brew "yarn"
 brew "yq"
 brew "ykman"
 
