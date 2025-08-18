@@ -43,7 +43,7 @@ brew "oq" # jq for json and yaml
 brew "openssl@3"
 brew "pinentry-mac" # for gpg sign
 brew "pixi"
-brew "pre-commit"
+#brew "pre-commit"  # use a different python for this sigh
 brew "python@3.11"  # support ODM
 brew "python@3.12"
 brew "python@3.13"
@@ -65,10 +65,11 @@ cask "alfred"
 cask "amazon-chime"
 cask "cloudflare-warp"
 cask "cursor"  # updates via UI instead?
-cask "docker" # need to remove docker desktop if installed?
+cask "docker-desktop"
 cask "dropbox"
 cask "iterm2"
 cask "lens" # k8s best interface
+cask "raycast"
 cask "slack"
 #cask "sonos"
 cask "sublime-merge"
