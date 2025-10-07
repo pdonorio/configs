@@ -44,9 +44,10 @@ brew "openssl@3"
 brew "pinentry-mac" # for gpg sign
 brew "pixi"
 #brew "pre-commit"  # use a different python for this sigh
-brew "python@3.11"  # support ODM
+brew "python@3.11"  # legacy support
 brew "python@3.12"
 brew "python@3.13"
+brew "skopeo"  # move containers images across registries
 brew "starship"  # fish goodies
 brew "telnet"
 brew "tfenv"
