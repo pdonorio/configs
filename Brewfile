@@ -54,8 +54,9 @@ brew "tfenv"
 brew "tree"
 brew "terraform-docs"
 brew "tmux"
+brew "zoxide"
+brew "fzf" # fuzzy session switcher
 brew "tmuxinator"
-brew "t-smart-tmux-session-manager" # fuzzy session switcher
 brew "uv" # python packages, better than poetry
 brew "yarn"
 brew "yq"
