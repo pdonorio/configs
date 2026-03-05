@@ -38,7 +38,7 @@ brew "kubectx"
 brew "kubernetes-cli"
 brew "logcli" # loki for grafana
 brew "make" # mac base make is obsolete
-brew "node@20"
+brew "node@22"
 brew "oq" # jq for json and yaml
 brew "openssl@3"
 brew "pinentry-mac" # for gpg sign
@@ -55,6 +55,7 @@ brew "tree"
 brew "terraform-docs"
 brew "tmux"
 brew "tmuxinator"
+brew "t-smart-tmux-session-manager" # fuzzy session switcher
 brew "uv" # python packages, better than poetry
 brew "yarn"
 brew "yq"
@@ -64,13 +65,16 @@ brew "ykman"
 # cask: extra packages
 cask "1password-cli"
 cask "alfred"
-cask "amazon-chime"
+#cask "amazon-chime"
 cask "cloudflare-warp"
+cask "claude-code"  # updates via UI instead?
 cask "cursor"  # updates via UI instead?
 cask "docker-desktop"
 cask "dropbox"
+#cask "kiro-cli"
 cask "iterm2"
 cask "lens" # k8s best interface
+cask "ngrok"
 cask "raycast"
 cask "slack"
 #cask "sonos"
