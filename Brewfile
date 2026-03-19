@@ -16,6 +16,7 @@ brew "awscli"
 brew "bash"
 brew "black" # python formatter, to be deprecated with ruff and uv
 brew "coreutils"
+brew "duti" # set default apps for file types
 #brew "docker" # docker cli
 #brew "docker-credential-helper"
 brew "eksctl"
@@ -72,7 +73,7 @@ cask "claude-code"  # updates via UI instead?
 cask "cursor"  # updates via UI instead?
 cask "docker-desktop"
 cask "dropbox"
-#cask "kiro-cli"
+brew "just" # a command runner to explore
 cask "iterm2"
 cask "lens" # k8s best interface
 cask "ngrok"
@@ -106,7 +107,6 @@ cask "zoom"
 
 # brew "colima" # docker macos alternative?
 # brew "deno" # js runtime for installing windmill
-# brew "just" # a command runner to explore
 # brew "minikube" (use kind instead)
 # brew "llm"
 # brew "ruff" # faster black
