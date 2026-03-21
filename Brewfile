@@ -39,6 +39,7 @@ brew "kubectx"
 brew "kubernetes-cli"
 brew "logcli" # loki for grafana
 brew "make" # mac base make is obsolete
+brew "bun" # js runtime for claude code telegram plugin
 brew "node@22"
 brew "oq" # jq for json and yaml
 brew "openssl@3"
