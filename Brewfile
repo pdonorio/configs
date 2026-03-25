@@ -71,6 +71,7 @@ cask "alfred"
 #cask "amazon-chime"
 cask "cloudflare-warp"
 cask "claude-code"  # updates via UI instead?
+cask "gcloud-cli"
 cask "cursor"  # updates via UI instead?
 cask "docker-desktop"
 cask "dropbox"
