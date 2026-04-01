@@ -42,6 +42,7 @@ brew "make" # mac base make is obsolete
 brew "bun" # js runtime for claude code telegram plugin
 brew "node@22"
 brew "oq" # jq for json and yaml
+brew "rtk" # token savings proxy for AI coding tools
 brew "openssl@3"
 brew "pinentry-mac" # for gpg sign
 brew "pixi"
