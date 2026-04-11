@@ -118,15 +118,12 @@ cask "zoom"
 # brew "wireshark"
 
 # cask "snowflake-snowsql"
-# cask "warp" # AI terminal
 
 #####################################
 # waiting for brew formula (install via npm/pip for now)
 
-# npm install -g @synth1s/cloak
-# cloak: multi-account profile switcher for Claude Code
-# https://github.com/synth1s/cloak
+# ...
 
 #####################################
-# not working anymore?
+# not working (to be retested)
 #brew "eks-node-viewer"
