@@ -121,5 +121,12 @@ cask "zoom"
 # cask "warp" # AI terminal
 
 #####################################
+# waiting for brew formula (install via npm/pip for now)
+
+# npm install -g @synth1s/cloak
+# cloak: multi-account profile switcher for Claude Code
+# https://github.com/synth1s/cloak
+
+#####################################
 # not working anymore?
 #brew "eks-node-viewer"
