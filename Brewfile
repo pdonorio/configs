@@ -26,6 +26,7 @@ brew "git-lfs"
 brew "go" # but using docker for different versions
 brew "goaccess"
 brew "gh" # github cli
+brew "glow" # markdown preview in terminal
 brew "gnupg" 
 brew "gpg2"
 brew "graphite" # git stacks
