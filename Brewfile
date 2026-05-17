@@ -21,15 +21,17 @@ brew "duti" # set default apps for file types
 #brew "docker-credential-helper"
 brew "eksctl"
 brew "fish" # my favorite shell
+brew "fnm" # allow npm install via fish
+brew "fzf" # fuzzy session switcher
 brew "git"
 brew "git-lfs"
 brew "go" # but using docker for different versions
 brew "goaccess"
 brew "gh" # github cli
 brew "glow" # markdown preview in terminal
-brew "gnupg" 
+brew "gnupg"
 brew "gpg2"
-brew "graphite" # git stacks
+brew "graphite2" # git stacks
 brew "helm"
 brew "hub"
 brew "jq"
@@ -58,9 +60,8 @@ brew "tfenv"
 brew "tree"
 brew "terraform-docs"
 brew "tmux"
-brew "zoxide"
-brew "fzf" # fuzzy session switcher
 brew "tmuxinator"
+brew "zoxide"
 brew "uv" # python packages, better than poetry
 brew "yarn"
 brew "yq"
@@ -71,8 +72,9 @@ brew "ykman"
 cask "1password-cli"
 cask "alfred"
 #cask "amazon-chime"
+cask "blip" # send links / files to other devices
 cask "cloudflare-warp"
-#cask "claude-code"  # updates via UI instead?
+#cask "claude-code"  # npm is much more up-to-date
 cask "gcloud-cli"
 cask "cursor"  # updates via UI instead?
 cask "docker-desktop"
@@ -81,11 +83,14 @@ brew "just" # a command runner to explore
 cask "iterm2"
 cask "lens" # k8s best interface
 cask "ngrok"
+cask "nordvpn"
 cask "raycast"
+cask "signal"
 cask "slack"
 #cask "sonos"
 cask "sublime-merge"
 cask "visual-studio-code"
+cask "wispr-flow"
 cask "zoom"
 
 #####################################
@@ -95,7 +100,7 @@ cask "zoom"
 # $ git config core.commentChar ';'
 # (then restart sublime)
 
-# setup tfenv (install, list, use) 
+# setup tfenv (install, list, use)
 # setup pre-commit (install)
 
 # yubikey gpg sign
