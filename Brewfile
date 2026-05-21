@@ -8,6 +8,7 @@
 # define sources
 tap "withgraphite/tap"
 tap "aws/tap"
+tap "jorgelbg/tap"
 
 #####################################
 # main packages
@@ -48,6 +49,7 @@ brew "oq" # jq for json and yaml
 brew "rtk" # token savings proxy for AI coding tools
 brew "openssl@3"
 brew "pinentry-mac" # for gpg sign
+brew "pinentry-touchid" # touch id for gpg
 brew "pixi"
 #brew "pre-commit"  # use a different python for this sigh
 brew "python@3.11"  # legacy support
